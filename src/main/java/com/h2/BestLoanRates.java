@@ -16,7 +16,7 @@ public class BestLoanRates {
     String name = scanner.nextLine();// we have te user input stored in variable name as we use object scaanner from line 8 an next line stores whole line
     System.out.println("Hello " + name); // print  using name info taken from user.
     
-    System.out.println("Enter the loan term (in years");
+    System.out.println("Enter the loan term in years");
     int loanTermInYears=scanner.nextInt();
     float bestRate=getRates(loanTermInYears);
     if (bestRate==0.0f){
