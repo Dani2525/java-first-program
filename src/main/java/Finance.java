@@ -11,7 +11,6 @@ public final static Map<String,String> commandsToUsage= Map.of(
     SAVINGS_CALCULATOR, "usage: savingsCalculator <credits separated by ','> <debits separated by ','>",
     MORTGAGE_CALCULATOR, "usage: mortgageCalculator <loanAmount> <termInYears> <annualRate>");
 
-private static boolean validateCommandArguements(String[] args){
+
     
-}
 }
