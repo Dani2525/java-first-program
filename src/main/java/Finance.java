@@ -55,7 +55,7 @@ public class Finance {
      System.out.println(commandsToUsage.get(args[0])); //  
      return;
     }//otherwise
-    executeCommand(command, Arrays.copyOfRange(args, 1, args.length) );// command a sint he app name and copies the parameters bneeded that the user entered into a new arrasy called args
+    executeCommand(command, Arrays.copyOfRange(args, 1, args.length) );// command a sint the app name and copies the parameters bneeded that the user entered into a new arrasy called `ar so it can be inputted in execute methos 
 
 }
 
