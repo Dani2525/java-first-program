@@ -6,6 +6,10 @@ public class Utilities {
     try{
         Long.parseLong(in)=out;
 
-    }catch (NumberFormatException e)
+    }catch (NumberFormatException e){
+
+    }catch (IllegalArgumentException(in + " cannot be converted into a 'long' value. Exiting program."))
+                return out;
+}
 }
 
